@@ -1,13 +1,13 @@
-fgcs2014
+ccpe2014
 ========
 
 This is a meta-project for the code used in the experimental evaluation presented in the following article (in BibTeX format):
 
-		@ARTICLE{fgcs2014,
+		@ARTICLE{ccpe2014,
 			author = {Cosimo Anglano and Massimo Canonico and Marco Guazzone},
 			title = {{FC2Q}: Exploiting Fuzzy Control in Server Consolidation for Cloud Applications with {SLA} Constraints},
-			journal = {Future Generation Computer Systems},
-			publisher = {Elsevier},
+			journal = {Concurrency and Computation: Practice and Experience},
+			publisher = {Wiley},
 			year = {2014},
 			note = {Submitted for publication},
 		}
