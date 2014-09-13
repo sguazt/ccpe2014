@@ -9,7 +9,7 @@ This is a meta-project for the code used in the experimental evaluation presente
 			journal = {Concurrency and Computation: Practice and Experience},
 			publisher = {Wiley},
 			year = {2014},
-			note = {Submitted for publication},
+			note = {Accepted for publication},
 		}
 
 Please, cite this code as above (using your suitable citation format).
