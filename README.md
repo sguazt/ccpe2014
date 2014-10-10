@@ -3,12 +3,15 @@ ccpe2014
 
 This is a meta-project for the code used in the experimental evaluation presented in the following article (in BibTeX format):
 
-		@ARTICLE{ccpe2014,
+		@ARTICLE{CPE:CPE3410,
 			author = {Cosimo Anglano and Massimo Canonico and Marco Guazzone},
 			title = {{FC2Q}: Exploiting Fuzzy Control in Server Consolidation for Cloud Applications with {SLA} Constraints},
 			journal = {Concurrency and Computation: Practice and Experience},
 			publisher = {Wiley},
 			year = {2014},
+			issn = {1532-0634},
+			url = {http://dx.doi.org/10.1002/cpe.3410},
+			doi = {10.1002/cpe.3410},
 			note = {Accepted for publication},
 		}
 
