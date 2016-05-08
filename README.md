@@ -1,7 +1,9 @@
 ccpe2014
 ========
 
-This is a meta-project for the code used in the experimental evaluation presented in the following article (in BibTeX format):
+This is a meta-project for the code used in the experimental evaluation presented in the article [FC2Q: Exploiting Fuzzy Control in Server Consolidation for Cloud Applications with SLA Constraints](http://dx.doi.org/10.1002/cpe.3410)
+
+Please, cite this code by citing the above article:
 
 		@ARTICLE{CPE:CPE3410,
 			author = {Cosimo Anglano and Massimo Canonico and Marco Guazzone},
@@ -16,9 +18,6 @@ This is a meta-project for the code used in the experimental evaluation presente
 			keywords = {cloud computing, resource management, feedback control, fuzzy control, virtualized cloud applications},
 			year = {2015},
 		}
-
-Please, cite this code as above (using your suitable citation format).
-
 
 
 Introduction
