@@ -1,7 +1,9 @@
 ccpe2014
 ========
 
-This is a meta-project for the code used in the experimental evaluation presented in the article [FC2Q: Exploiting Fuzzy Control in Server Consolidation for Cloud Applications with SLA Constraints](http://dx.doi.org/10.1002/cpe.3410)
+This is a meta-project for the code used in the experimental evaluation presented in the article:
+
+> [FC2Q: Exploiting Fuzzy Control in Server Consolidation for Cloud Applications with SLA Constraints](http://dx.doi.org/10.1002/cpe.3410)
 
 Please, cite this code by citing the above article:
 
