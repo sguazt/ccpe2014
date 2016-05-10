@@ -4,9 +4,9 @@ ccpe2014
 This is a meta-project for the code used in the experimental evaluation presented in the article:
 
 > Cosimo Anglano and Massimo Canonico and Marco Guazzone
-
+>
 > [FC2Q: Exploiting Fuzzy Control in Server Consolidation for Cloud Applications with SLA Constraints](http://dx.doi.org/10.1002/cpe.3410)
-
+>
 > Concurrency Computat.: Pract. Exper., 27:4491–4514, 2015.
 
 Please, cite this code by citing the above article:
