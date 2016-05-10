@@ -9,7 +9,7 @@ This is a meta-project for the code used in the experimental evaluation presente
 >
 > Concurrency Computat.: Pract. Exper., 27:4491–4514, 2015.
 
-Please, cite this code by citing the above article:
+Please, cite this code as follows (BibTeX format):
 
 		@ARTICLE{CPE:CPE3410,
 			author = {Cosimo Anglano and Massimo Canonico and Marco Guazzone},
