@@ -1,29 +1,49 @@
 ccpe2014
 ========
 
+Exploiting Fuzzy Control in Server Consolidation for Cloud Applications with SLA Constraints.
+
 This is a meta-project for the code used in the experimental evaluation presented in the article:
 
 > Cosimo Anglano and Massimo Canonico and Marco Guazzone
 >
-> [FC2Q: Exploiting Fuzzy Control in Server Consolidation for Cloud Applications with SLA Constraints](http://dx.doi.org/10.1002/cpe.3410)
+> *FC2Q: Exploiting Fuzzy Control in Server Consolidation for Cloud Applications with SLA Constraints*
 >
-> Concurrency Computat.: Pract. Exper., 27:4491–4514, 2015.
+> Concurrency Computat.: Pract. Exper., 27(17):4491-4514, 2015.
+>
+> doi: [10.1002/cpe.3410](http://dx.doi.org/10.1002/cpe.3410)
 
 Please, cite this code as follows (BibTeX format):
 
-		@ARTICLE{CPE:CPE3410,
-			author = {Cosimo Anglano and Massimo Canonico and Marco Guazzone},
-			title = {{FC2Q}: Exploiting Fuzzy Control in Server Consolidation for Cloud Applications with {SLA} Constraints},
-			journal = {Concurrency and Computation: Practice and Experience},
-			volume = {27},
-			number = {17},
-			issn = {1532-0634},
-			url = {http://dx.doi.org/10.1002/cpe.3410},
-			doi = {10.1002/cpe.3410},
-			pages = {4491--4514},
-			keywords = {cloud computing, resource management, feedback control, fuzzy control, virtualized cloud applications},
-			year = {2015},
-		}
+	@ARTICLE{CPE:CPE3410,
+		author = {Cosimo Anglano and Massimo Canonico and Marco Guazzone},
+		title = {{FC2Q}: Exploiting Fuzzy Control in Server Consolidation for Cloud Applications with {SLA} Constraints},
+		journal = {Concurrency and Computation: Practice and Experience},
+		volume = {27},
+		number = {17},
+		issn = {1532-0634},
+		url = {http://dx.doi.org/10.1002/cpe.3410},
+		doi = {10.1002/cpe.3410},
+		pages = {4491--4514},
+		keywords = {cloud computing, resource management, feedback control, fuzzy control, virtualized cloud applications},
+		year = {2015},
+	}
+
+
+Overview
+--------
+
+Modern cloud data centers rely on server consolidation (the allocation of several virtual machines on the same physical host) to minimize their costs.
+
+Choosing the right consolidation level (how many and which virtual machines are assigned to a physical server) is a challenging problem, because contemporary multitier cloud applications must meet service level agreements in face of highly dynamic, nonstationary, and bursty workloads.
+
+In (Anglano,2015), we deal with the problem of achieving the best consolidation level that can be attained without violating application service level agreements.
+
+We tackle this problem by devising fuzzy controller for consolidation and QoS (FC2Q), a resource management framework exploiting feedback fuzzy logic control, that is able to dynamically adapt the physical CPU capacity allocated to the tiers of an application in order to precisely match the needs induced by the intensity of its current workload.
+
+We implement FC2Q on a real testbed and use this implementation to demonstrate its ability of meeting the aforementioned goals by means of a thorough experimental evaluation, carried out with real-world cloud applications and workloads.
+
+Furthermore, we compare the performance achieved by FC2Q against those attained by existing state-of-the-art alternative solutions, and we show that FC2Q works better than them in all the considered experimental scenarios
 
 
 Introduction
@@ -193,3 +213,10 @@ Bug notification and patches are always welcomed.
 Also, other type of contributions (e.g., new features or improvement) are welcomed, as well.
 
 Please, note that, since this is only a meta-project (i.e., a container for other sub-projects), for feedback and contributions you are asked to refer to the specific sub-project.
+
+
+References
+----------
+- **(Anglano,2015)** C. Anglano, M. Canonico and M. Guazzone.
+*FC2Q: Exploiting Fuzzy Control in Server Consolidation for Cloud Applications with SLA Constraints*,
+Concurrency Computat.: Pract. Exper., 27(17):4491-4514, 2015.
