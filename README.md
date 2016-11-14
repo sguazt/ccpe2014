@@ -1,7 +1,7 @@
 ccpe2014
 ========
 
-Exploiting Fuzzy Control in Server Consolidation for Cloud Applications with SLA Constraints.
+FC2Q: Exploiting Fuzzy Control in Server Consolidation for Cloud Applications with SLA Constraints.
 
 This is a meta-project for the code used in the experimental evaluation presented in the article:
 
