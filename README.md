@@ -13,7 +13,7 @@ This is a meta-project for the code used in the experimental evaluation presente
 >
 > doi: [10.1002/cpe.3410](http://dx.doi.org/10.1002/cpe.3410)
 
-Please, cite this code as follows (BibTeX format):
+Please, cite this project as follows (BibTeX format):
 
 	@ARTICLE{CPE:CPE3410,
 		author = {Cosimo Anglano and Massimo Canonico and Marco Guazzone},
@@ -25,7 +25,7 @@ Please, cite this code as follows (BibTeX format):
 		url = {http://dx.doi.org/10.1002/cpe.3410},
 		doi = {10.1002/cpe.3410},
 		pages = {4491--4514},
-		keywords = {cloud computing, resource management, feedback control, fuzzy control, virtualized cloud applications},
+		keywords = {cloud computing, resource management, feedback control, fuzzy control, server consolidation, virtualized cloud applications},
 		year = {2015},
 	}
 
@@ -49,7 +49,7 @@ Furthermore, we compare the performance achieved by FC2Q against those attained 
 Introduction
 ------------
 
-The code is composed by two macro-modules:
+The project is composed by two macro-modules:
 
 * *server-side module* contains code to be run on the server-side (e.g., inside a virtual machine (VM)). The module is composed by:
 
